@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+   "configurations": [
+    
+    {
+      "name": "Run current file",
+      "request": "launch",
+      "runtimeArgs": [
+        "playwright",
+        "test",
+        "-g",
+        "${fileBasename}"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "runtimeExecutable": "npx",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "env": {
+        "ENV": "test"
+      }
+    }
+  ]
+}

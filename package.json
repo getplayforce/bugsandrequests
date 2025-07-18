@@ -1,0 +1,28 @@
+{
+  "name": "samples-bugs-featurerequests",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This repository is public to allow users of Playforce to:\r - Reuse Code Samples\r - Report bugs\r - Request features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getplayforce/samples-bugs-featurerequests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getplayforce/samples-bugs-featurerequests/issues"
+  },
+  "homepage": "https://github.com/getplayforce/samples-bugs-featurerequests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "playforce": "^1.0.8"
+  }
+}
