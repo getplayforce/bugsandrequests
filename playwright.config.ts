@@ -15,7 +15,7 @@ dotenv.config({path: path.resolve(__dirname, configFile)});
 
 export default defineConfig({
   globalSetup: ['./global-setup'],
-  testDir: './tests',
+  testDir: '.',
   timeout: 30000,
   retries: 1,
   reporter: [
